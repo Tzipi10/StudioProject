@@ -1,3 +1,8 @@
-<p>login works!</p>
-
-
+<h1>login</h1>
+<form  (Submit)="login()">
+    <input type="text" id="username" formControlName="username" placeholder="user name" required/><br>
+    <input type="password" id="password" formControlName="password" placeholder="password" required/><br>
+    
+    <button type="submit">login</button>
+    <!-- <button type="submit" [disabled]="!username || !password ">login</button> -->
+</form>

@@ -1,17 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { LoginComponent } from './login.component';
 
-describe('LoginComponent', () => {
-  let component: LoginComponent;
-  let fixture: ComponentFixture<LoginComponent>;
+import { NoValidComponent } from './no-valid.component';
+
+describe('NoValidComponent', () => {
+  let component: NoValidComponent;
+  let fixture: ComponentFixture<NoValidComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LoginComponent]
+      imports: [NoValidComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LoginComponent);
+    fixture = TestBed.createComponent(NoValidComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

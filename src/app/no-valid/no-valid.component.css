@@ -1,0 +1,21 @@
+html, body {
+    height: 100%; /* מבטיח שהגובה של הגוף ימלא את החלון */
+    margin: 0; /* מסיר מרג'ין ברירת מחדל */
+    overflow: hidden; /* מונע גלילה */
+}
+
+.image-container {
+    display: flex; /* מפעיל flexbox */
+    justify-content: center; /* מרכז את התמונה אופקית */
+    align-items: center; /* מרכז את התמונה אנכית */
+    height: 100%; /* קובע את גובה הקונטיינר לגובה המלא של הדף */
+}
+
+.styled-image {
+    margin-top: 20%;
+    max-width: 100%; /* מתאם את התמונה לגודל הקונטיינר */
+    height: auto; /* שומר על פרופורציות */
+    border: 2px solid red; /* גבול אדום סביב התמונה */
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* הצללה */
+}

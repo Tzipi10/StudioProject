@@ -1,0 +1,25 @@
+nav {
+    background-color: #417490e5; /* צבע רקע לניווט */
+    padding: 10px; /* ריווח פנימי */
+    display: flex; /* שימוש ב-Flexbox */
+    justify-content: space-around; /* ריווח שווה בין הקישורים */
+    border-radius: 5px; /* פינות מעוגלות */
+}
+
+nav a {
+    color: white; /* צבע טקסט */
+    text-decoration: none; /* ללא קו תחתון */
+    padding: 10px 15px; /* ריווח פנימי סביב הקישורים */
+    border-radius: 4px; /* פינות מעוגלות */
+    transition: background-color 0.3s; /* מעבר חלק לצבע */
+}
+
+nav a:hover {
+    background-color:  #71b1d386; /* צבע רקע בעת ריחוף */
+}
+
+nav a.active {
+    background-color: #a2c4d6; /* צבע רקע לקישור פעיל */
+    color: #fff; /* צבע טקסט לקישור פעיל */
+}
+

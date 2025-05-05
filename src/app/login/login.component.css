@@ -1,0 +1,43 @@
+/* עיצוב עבור טופס הלוגין */
+div {
+    max-width: 400px; /* רוחב מקסימלי לטופס */
+    margin: auto; /* מרכז את הטופס */
+    padding: 20px; /* ריווח פנימי */
+    border: 1px solid #ccc; /* גבול סביב הטופס */
+    border-radius: 5px; /* פינות מעוגלות */
+    background-color: #f9f9f9; /* צבע רקע */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* צל לטופס */
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%; /* רוחב מלא */
+    padding: 10px; /* ריווח פנימי */
+    margin: 10px 0; /* ריווח בין השדות */
+    border: 1px solid #ccc; /* גבול סביב השדות */
+    border-radius: 4px; /* פינות מעוגלות */
+    box-sizing: border-box; /* כולל ריווח בגובה וברוחב */
+}
+
+button {
+    width: 100%; /* רוחב מלא */
+    padding: 10px; /* ריווח פנימי */
+    background-color: #4c8caf; /* צבע רקע כפתור */
+    color: white; /* צבע טקסט */
+    border: none; /* ללא גבול */
+    border-radius: 4px; /* פינות מעוגלות */
+    cursor: pointer; /* ידית על העכבר */
+    font-size: 16px; /* גודל טקסט */
+    transition: background-color 0.3s; /* מעבר חלק לצבע */
+}
+
+button:hover {
+    background-color: #417490e5; /* צבע רקע בעת ריחוף */
+}
+
+button:disabled {
+    background-color: #ccc; /* צבע רקע כשכפתור מושבת */
+    color: #666; /* צבע טקסט כשכפתור מושבת */
+    cursor: not-allowed; /* ידית לא פעילה על העכבר */
+}
