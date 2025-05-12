@@ -1,5 +1,5 @@
 /* עיצוב עבור טופס הלוגין */
-div {
+form {
     max-width: 400px; /* רוחב מקסימלי לטופס */
     margin: auto; /* מרכז את הטופס */
     padding: 20px; /* ריווח פנימי */
@@ -40,4 +40,17 @@ button:disabled {
     background-color: #ccc; /* צבע רקע כשכפתור מושבת */
     color: #666; /* צבע טקסט כשכפתור מושבת */
     cursor: not-allowed; /* ידית לא פעילה על העכבר */
+}
+
+h1 {
+    font-size: 2.5em; /* גודל גופן גדול יותר */
+    color: #4c8caf; /* צבע טקסט */
+    text-align: center; /* ממרכז את הטקסט */
+    margin-bottom: 20px; /* מרווח מתחת לכותרת */
+}
+
+h2 {
+    color: #FF0000; /* צבע אדום להודעת שגיאה */
+    text-align: center; /* ממרכז את הטקסט */
+    margin-top: 10px; /* מרווח מעל להודעת שגיאה */
 }
