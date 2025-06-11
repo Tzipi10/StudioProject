@@ -19,8 +19,13 @@ nav a:hover {
     background-color:  #71b1d386; /* צבע רקע בעת ריחוף */
 }
 
-nav a.active {
+nav a.active,nav a:last-child:hover {
     background-color: #a2c4d6; /* צבע רקע לקישור פעיל */
     color: #fff; /* צבע טקסט לקישור פעיל */
 }
 
+nav a:last-child{
+    background-color: #dcdcdce5;
+    color: #417490e5;
+    font-weight: bold;
+}

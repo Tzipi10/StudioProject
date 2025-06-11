@@ -1,0 +1,17 @@
+<h1 class="page-title">registers</h1>
+
+<div class="table-wrapper">
+  <ag-grid-angular
+    class="ag-theme-alpine"
+    style="width: 92%; height:550px;"
+    [columnDefs]="columnDefs"
+    [rowData]="rowData"
+    [getRowStyle]="getRowStyle"
+    [paginationPageSize]="10"
+    [pagination]="true"
+    (gridReady)="onGridReady($event)"
+    [context]="context"
+
+    [defaultColDef]="{ sortable: true, resizable: true, filter: true }">
+  </ag-grid-angular>
+</div>

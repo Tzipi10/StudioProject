@@ -1,0 +1,15 @@
+<div class="details-container" *ngIf="lesson">
+  <h2>{{ lesson!.lessonName }}</h2>
+  <p><strong>Teacher:</strong> {{ lesson!.teacherName }}</p>
+  <p><strong>Num lessons:</strong> {{ lesson!.numLessons }}</p>
+  <p><strong>Start Date:</strong> {{ lesson!.startDate | date }}</p>
+  <p><strong>Price:</strong> {{ lesson!.price }} $</p>
+  <p><strong>Day:</strong> {{ lesson!.day }}</p>
+  <p><strong>Hour:</strong> {{ lesson!.hour }}</p>
+
+  <button mat-raised-button color="accent" class="hover-button" (click)="goBack()">Back</button>
+</div>
+
+<div *ngIf="!lesson">
+  <p>Lesson not found!</p>
+</div>

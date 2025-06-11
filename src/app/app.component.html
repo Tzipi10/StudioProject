@@ -1,7 +1,9 @@
 <nav>
   <a routerLink="/home" routerLinkActive="active">home</a>
-  <a routerLink="/lesson" routerLinkActive="active">lesson</a>
-  <a routerLink="/registered" routerLinkActive="active">registered</a>
+  <a routerLink="/lessons" routerLinkActive="active">lessons</a>
+  <a routerLink="/registereds" routerLinkActive="active">registereds</a>
+  <a (click)="logout()">{{ log ? 'LOGOUT' : 'LOGIN' }}</a>
+
 </nav>
 <router-outlet></router-outlet>
 <!-- <app-login></app-login> -->
