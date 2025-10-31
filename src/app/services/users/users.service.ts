@@ -16,7 +16,7 @@ export class UsersService {
     {
       username: 'david',
       password: '5678',
-      userRole: UserRole.GYMTEACHER,
+      userRole: UserRole.SECRETARY,
     },
     {
       username: 'sara',

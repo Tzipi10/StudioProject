@@ -1,59 +1,94 @@
-# AngularProject
+# Angular Gym Studio Project
+
+## Description
+A management system for a gymnastics studio, built with Angular.  
+The system enables lesson management, participant registrations, and secure login with role-based access.
+
+## Users
+- **Admin**: Can add new lessons and manage lesson details  
+- **Teacher**: Can view lessons and manage participant registrations  
+
+## Main Features
+- Login screen with role-based redirection (Admin or Teacher)
+- Lesson list displaying:
+  - Lesson name
+  - Instructor
+  - Price
+  - Date
+  - Time  
+- Registration form per lesson with input validation  
+- Ability to view and delete participant registrations  
+
+## Technologies Used
+- Angular  
+- Angular Material  
+- ag-grid  
+- Reactive Forms  
+- Routing  
+
+## Bonus Features Implemented
+- User route protection using Angular Guards  
+- Highlighting rows of unpaid participants in the registration table  
+- Custom directive to highlight empty fields on login
+
+---
+
+# Development & Setup
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 
-## Development server
+## Development Server
 
-To start a local development server, run:
+Run the following to start the development server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Navigate to `http://localhost:4200/`. The app will reload automatically upon code changes.
 
-## Code scaffolding
+## Code Generation
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Generate new components, directives, or pipes using:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+For all available schematics:
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## Building the Project
 
-To build the project run:
+To compile the project:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Build artifacts will be stored in the `dist/` folder. Production builds are optimized.
 
-## Running unit tests
+## Running Tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Unit tests with [Karma](https://karma-runner.github.io):
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## End-to-End Tests
 
-For end-to-end (e2e) testing, run:
+To run e2e tests:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Note: You'll need to configure your preferred e2e framework.
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Visit the [Angular CLI Documentation](https://angular.dev/tools/cli) for more details.
