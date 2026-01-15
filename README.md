@@ -1,5 +1,4 @@
 # Angular Gym Studio Project
-
 ## Description
 A management system for a gymnastics studio, built with Angular.  
 The system enables lesson management, participant registrations, and secure login with role-based access.
